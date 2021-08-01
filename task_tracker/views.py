@@ -5,4 +5,3 @@ from .models import Task
 class TaskView(viewsets.ModelViewSet):
     serializer_class        = TaskSerializer
     queryset                = Task.objects.all()
-    permission_classes      = [permissions.IsAuthenticated]
