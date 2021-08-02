@@ -1,7 +1,7 @@
 from django.db import models
-from datetime import datetime
+from datetime import date
 
 class Task (models.Model):
     text        = models.TextField()
-    day         = models.DateTimeField(default=datetime.now())
+    day         = models.DateField(default=date.today)
     reminder    = models.BooleanField(default=False)
