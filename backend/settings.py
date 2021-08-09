@@ -28,7 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',
-    'ck-website-backend.herokuapp.com',
+    'personalwebbackend.herokuapp.com',
 ]
 
 
