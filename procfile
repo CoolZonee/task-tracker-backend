@@ -1,1 +1,1 @@
-web: gunicorn task-tracker-backend.wsgi
+web: gunicorn task-tracker-backend.backend.wsgi
