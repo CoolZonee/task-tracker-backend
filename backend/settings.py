@@ -31,7 +31,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost:4200',
-    'limcheekeat.com'
+    'limcheekeat.com',
+    'ck-website-backend.herokuapp.com',
 ]
 
 
