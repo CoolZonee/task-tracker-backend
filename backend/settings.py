@@ -30,9 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'localhost',
-    'limcheekeat.com',
-    'ck-website-backend.herokuapp.com',
+    '*',
 ]
 
 
